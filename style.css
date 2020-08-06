@@ -9,7 +9,7 @@ svg:hover {
     fill: #fff;
 }
 
-.insta:hover {
+.a:hover {
     fill: #fff;
 }
 .coming-soon {
@@ -24,17 +24,38 @@ svg:hover {
     color: #FFFFFF;
 }
 
+.media {
 
+}
 
 .general {
     display: grid;
     grid-template-rows: 1fr, 1fr;
 }
-
 .social {
-    padding: 10px;
-    margin: 200px auto;
+    display: grid;
+    height: 100px;
+    margin-top: 250px;
+}
+
+.social-icons {
+    position: absolute;
+    width: 150px;
+    display: grid;
+   
+}
+.gmail {
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 60px;
+    color: #27BCC4;
+
+}
+.social-media {
+    position: relative;
+    margin: 0 auto;
     display: flex;
+    float: left;
     column-gap: 25px;
 }
 .slogan {
