@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+body {
+    margin: 0;
+    background-color: #03244B;
+}
+
+
+.coming-soon {
+   
+    text-align: center;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37.1104px;
+    line-height: 55.3%;
+    /* or 21px */
+    color: #FFFFFF;
+}
+
+.general {
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+}
+
+.slogan {
+    place-self: center;
+    margin: 180px auto;
+    text-align: center;
+    position: absolute;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    width: 500px;
+    line-height: 17px;
+    /* or 17px */
+    color: #27BCC4;
+}
+
+.logo {
+    place-self: center;
+    margin-top: 100px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 500px;
+    height: 200px;
+    background-image: url(img/Logo_Negativo.png);
+    background-repeat: no-repeat;
+}
