@@ -5,6 +5,13 @@ body {
 }
 
 
+svg:hover {
+    fill: #fff;
+}
+
+.insta:hover {
+    fill: #fff;
+}
 .coming-soon {
    
     text-align: center;
@@ -17,11 +24,19 @@ body {
     color: #FFFFFF;
 }
 
+
+
 .general {
     display: grid;
     grid-template-rows: 1fr, 1fr;
 }
 
+.social {
+    padding: 10px;
+    margin: 200px auto;
+    display: flex;
+    column-gap: 25px;
+}
 .slogan {
     place-self: center;
     margin: 180px auto;
